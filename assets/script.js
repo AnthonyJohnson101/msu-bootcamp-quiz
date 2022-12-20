@@ -73,22 +73,27 @@ function questionOne () {
     buttonA.addEventListener("click", function(event) {
         secondsLeft -= 10
         questionTwo ();
+
     });
 
     buttonB.addEventListener("click", function(event) {
         questionTwo ();
+
     });
 
     buttonC.addEventListener("click", function(event) {
         secondsLeft -= 10
         questionTwo ();
+
     });
 
     buttonD.addEventListener("click", function(event) {
         secondsLeft -= 10
         questionTwo ();
-    });
 
+    });
+    
+    
 }
 
 function questionTwo () {
@@ -106,17 +111,21 @@ function questionTwo () {
     buttonB.addEventListener("click", function(event) {
         secondsLeft -= 10
         questionThree ();
+        
     });
 
     buttonC.addEventListener("click", function(event) {
         questionThree ();
+        
     });
 
     buttonD.addEventListener("click", function(event) {
         secondsLeft -= 10
         questionThree ();
+        
     });
-
+    
+    
 }
 
 function questionThree () {
@@ -129,6 +138,7 @@ function questionThree () {
     buttonA.addEventListener("click", function(event) {
         secondsLeft -= 10
         questionFour ();
+        
     });
 
     buttonB.addEventListener("click", function(event) {
@@ -144,5 +154,6 @@ function questionThree () {
         secondsLeft -= 10
         questionFour ();
     });
+    
 
 }
