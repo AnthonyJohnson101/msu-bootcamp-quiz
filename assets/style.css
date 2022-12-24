@@ -54,3 +54,7 @@ header {
 ul {
     list-style: none;
 }
+
+.leaderboard {
+    text-align: center;
+}
